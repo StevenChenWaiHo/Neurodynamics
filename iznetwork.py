@@ -67,7 +67,7 @@ class IzNetwork(object):
     Set synaptic delays.
     
     Inputs:
-    D  -- np.array or np.matrix. The delay matrix must contain nonnegative
+    D  -- np.array or np.matrix. The delay matrix must conta=in nonnegative
           integers, and must be of size N-by-N, where N is the number of
           neurons supplied in the constructor.
     """
